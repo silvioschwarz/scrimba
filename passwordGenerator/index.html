@@ -1,0 +1,39 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Karla:wght@400;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Generate a <br><span class="mint">random password</span></h1>
+            <h2>Never use an insecure password again. </h2>
+        </header>
+        <main>
+            <div>
+                <button id="generatePassword-btn">Generate passwords</button>
+            </div>
+            <div>
+                <input type="range" list="ticks" id="volume" name="volume" min="0" max="50">
+                <label for="volume">length: </label><span id="passlen"></span><br>
+                <input type="checkbox" id="lowercase" checked><label for="">a-z</label>
+                <input type="checkbox" id="uppercase" checked><label for="">A-Z</label>
+                <input type="checkbox" id="numeric" checked><label for="">0-9</label>
+                <input type="checkbox" id="special" checked><label for="">!§$%&#*</label>
+                <!-- Rounded switch -->
+                <!--
+<label class="switch">
+  <input type="checkbox">
+  <span class="slider round"></span>
+</label>[a-Z]<br>
+-->
+        </div>
+        </main>
+        <hr>
+        <div id="password-container">
+        <div id="pass1" class="rectangle" onclick="copyDivToClipboard(this.id)"></div><div id="pass2" class="rectangle" onclick="copyDivToClipboard(this.id)"></div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
