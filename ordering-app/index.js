@@ -64,7 +64,7 @@ function getMenuHtml(){
                 <button class="add-btn" type="button" data-id=${item.id}></button>
             </div>
         </div>
-        <div>
+        <div class="divider">
             <hr>
         </div>
     </div>
