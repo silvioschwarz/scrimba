@@ -1,0 +1,115 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    font-family: Josefin Sans, sans-serif;
+    color: white;
+    margin: 0px 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+#freddy {
+    margin: 20px ;
+    width: 100px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background: black;
+}
+
+h1 {
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+input {
+    border-radius: 8px;
+    border: 0;
+    background: #444059;
+    color: #8F8F8F;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+
+}
+
+#input-field{
+    margin: 10px;
+    width: 100%;
+    padding: 10px 10px 100px ;
+    box-sizing: border-box;
+}
+
+main div{
+    width: 100%;
+    display: flex;
+    gap: 15px; 
+    justify-content: space-between;
+}
+
+#from, #to {
+    width: 50%;
+    margin: 0px 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+button {
+    width: 100%;
+    border-radius: 8px;
+    border:0;
+    padding: 15px;
+    background: #28A9F1;
+    font-weight: bold;
+    margin-top: 10px
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h1 {
+    font-weight: 400;
+    font-size: 20px;
+    margin: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    flex-direction: column-reverse;
+}
+
+ul li {
+    width: 100%;
+    background: white;
+    color: black;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
